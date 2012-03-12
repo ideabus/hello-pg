@@ -59,7 +59,8 @@
 /**
  * This is main kick off after the app inits, the views and Settings are setup here. (preferred - iOS4 and up)
  */
-- (BOOL) application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
+- (BOOL) application:(UIApplication*)application 
+    didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {    
     NSURL* url = [launchOptions objectForKey:UIApplicationLaunchOptionsURLKey];
     if (url && [url isKindOfClass:[NSURL class]]) {
@@ -76,7 +77,7 @@
     self.viewController = [[[MainViewController alloc] init] autorelease];
     self.viewController.useSplashScreen = YES;
     self.viewController.wwwFolderName = @"www";
-    self.viewController.startPage = @"index.html";
+    self.viewController.startPage = @"five.html";
     self.viewController.view.frame = viewBounds;
     
     // over-ride delegates

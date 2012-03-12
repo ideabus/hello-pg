@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAA3D0FE150DD9A2002F7BF2 /* www in Resources */ = {isa = PBXBuildFile; fileRef = AAA3D0FD150DD9A2002F7BF2 /* www */; };
 		AAF5064E150D91DA00D33E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064D150D91DA00D33E0F /* Foundation.framework */; };
 		AAF50650150D91DA00D33E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064F150D91DA00D33E0F /* UIKit.framework */; };
 		AAF50652150D91DA00D33E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF50651150D91DA00D33E0F /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAA3D0FD150DD9A2002F7BF2 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		AAF50649150D91DA00D33E0F /* hello-pg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-pg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF5064D150D91DA00D33E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAF5064F150D91DA00D33E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,10 +57,10 @@
 		AAF50661150D91DA00D33E0F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AAF50663150D91DA00D33E0F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AAF50665150D91DA00D33E0F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		AAF50669150D91DA00D33E0F /* hello-pg-Info.plist */ = {isa = PBXFileReference; path = "hello-pg-Info.plist"; sourceTree = "<group>"; };
+		AAF50669150D91DA00D33E0F /* hello-pg-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello-pg-Info.plist"; sourceTree = "<group>"; };
 		AAF5066B150D91DA00D33E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAF5066D150D91DA00D33E0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AAF5066F150D91DA00D33E0F /* hello-pg-Prefix.pch */ = {isa = PBXFileReference; path = "hello-pg-Prefix.pch"; sourceTree = "<group>"; };
+		AAF5066F150D91DA00D33E0F /* hello-pg-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-pg-Prefix.pch"; sourceTree = "<group>"; };
 		AAF50670150D91DA00D33E0F /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		AAF50675150D91DA00D33E0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AAF50679150D91DA00D33E0F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -71,12 +73,12 @@
 		AAF5068D150D91DA00D33E0F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
 		AAF5068F150D91DA00D33E0F /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		AAF50691150D91DA00D33E0F /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		AAF50694150D91DA00D33E0F /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		AAF50694150D91DA00D33E0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		AAF50695150D91DA00D33E0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		AAF50697150D91DA00D33E0F /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		AAF50697150D91DA00D33E0F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		AAF50698150D91DA00D33E0F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		AAF5069A150D91DA00D33E0F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		AAF5069D150D91DA00D33E0F /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		AAF5069D150D91DA00D33E0F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		AAF5069E150D91DA00D33E0F /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +154,7 @@
 		AAF50667150D91DA00D33E0F /* hello-pg */ = {
 			isa = PBXGroup;
 			children = (
+				AAA3D0FD150DD9A2002F7BF2 /* www */,
 				AAF50670150D91DA00D33E0F /* Cordova.framework */,
 				AAF50672150D91DA00D33E0F /* Resources */,
 				AAF50693150D91DA00D33E0F /* Classes */,
@@ -330,6 +333,7 @@
 				AAF50692150D91DA00D33E0F /* Cordova.plist in Resources */,
 				AAF5069B150D91DA00D33E0F /* MainViewController.xib in Resources */,
 				AAF5069F150D91DA00D33E0F /* verify.sh in Resources */,
+				AAA3D0FE150DD9A2002F7BF2 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +437,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -453,6 +458,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -476,6 +482,7 @@
 					"DEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "hello-pg/hello-pg-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -506,6 +513,7 @@
 					"NDEBUG=1,",
 					"CORDOVA_FRAMEWORK=1",
 				);
+				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "hello-pg/hello-pg-Info.plist";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -543,6 +551,7 @@
 				AAF506A4150D91DA00D33E0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
