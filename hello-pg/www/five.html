@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            canvas {
+                border: 1px solid #9C9898;
+            }
+        </style>
+        <script src="http://www.html5canvastutorials.com/libraries/kinetic-v3.8.2.js">
+        </script>
+        
+        <script>
+		function drawPloygon() 
+		{
+				var stage = new Kinetic.Stage("container", 578, 200);
+				var layer = new Kinetic.Layer();
+	 
+				var points = [{
+						x: 100,
+						y: 100
+					}, {
+						x: 100,
+						y: 100
+					}, {
+						x: 340,
+						y: 23
+					}, {
+						x: 500,
+						y: 100
+					}, {
+						x: 500,
+						y: 100
+					}, {
+						x: 340,
+						y: 200
+					}];
+	 
+				var poly = new Kinetic.Polygon({
+					points: points,
+					fill: "green"	,
+					stroke: "black",
+					strokeWidth: 5
+				});
+	 
+				// add the shape to the layer
+				layer.add(poly);
+	 
+				// add the layer to the stage
+				stage.add(layer);
+			};
+			
+            function dtawStar() {
+                var stage = new Kinetic.Stage("container", 578, 200);
+                var layer = new Kinetic.Layer();
+                
+                var star = new Kinetic.Star({
+                    x: stage.width / 2,
+                    y: stage.height / 2,
+                    points: 6,
+                    innerRadius: 40,
+                    outerRadius: 70,
+                    fill: "yellow",
+                    stroke: "black",
+                    strokeWidth: 4
+                });
+                
+                // add the shape to the layer
+                layer.add(star);
+                
+                // add the layer to the stage
+                stage.add(layer);
+            };
+            
+			window.onload = drawPloygon;
+
+        </script>
+    </head>
+    <body onmousedown="return false;">
+        <div id="container">
+        </div>
+    </body>
+</html>
