@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AAA3D0FE150DD9A2002F7BF2 /* www in Resources */ = {isa = PBXBuildFile; fileRef = AAA3D0FD150DD9A2002F7BF2 /* www */; };
+		AACDBAF8150DE61A005532F5 /* www in Resources */ = {isa = PBXBuildFile; fileRef = AACDBAF7150DE61A005532F5 /* www */; };
 		AAF5064E150D91DA00D33E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064D150D91DA00D33E0F /* Foundation.framework */; };
 		AAF50650150D91DA00D33E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064F150D91DA00D33E0F /* UIKit.framework */; };
 		AAF50652150D91DA00D33E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF50651150D91DA00D33E0F /* CoreGraphics.framework */; };
@@ -42,7 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AAA3D0FD150DD9A2002F7BF2 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		AACDBAF7150DE61A005532F5 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		AAF50649150D91DA00D33E0F /* hello-pg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-pg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF5064D150D91DA00D33E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAF5064F150D91DA00D33E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -117,6 +117,7 @@
 		AAF5063B150D91DA00D33E0F = {
 			isa = PBXGroup;
 			children = (
+				AACDBAF7150DE61A005532F5 /* www */,
 				AAF50667150D91DA00D33E0F /* hello-pg */,
 				AAF5064C150D91DA00D33E0F /* Frameworks */,
 				AAF5064A150D91DA00D33E0F /* Products */,
@@ -154,7 +155,6 @@
 		AAF50667150D91DA00D33E0F /* hello-pg */ = {
 			isa = PBXGroup;
 			children = (
-				AAA3D0FD150DD9A2002F7BF2 /* www */,
 				AAF50670150D91DA00D33E0F /* Cordova.framework */,
 				AAF50672150D91DA00D33E0F /* Resources */,
 				AAF50693150D91DA00D33E0F /* Classes */,
@@ -333,7 +333,7 @@
 				AAF50692150D91DA00D33E0F /* Cordova.plist in Resources */,
 				AAF5069B150D91DA00D33E0F /* MainViewController.xib in Resources */,
 				AAF5069F150D91DA00D33E0F /* verify.sh in Resources */,
-				AAA3D0FE150DD9A2002F7BF2 /* www in Resources */,
+				AACDBAF8150DE61A005532F5 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
