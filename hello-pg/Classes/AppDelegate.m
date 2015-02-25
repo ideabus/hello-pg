@@ -77,7 +77,7 @@
     self.viewController = [[[MainViewController alloc] init] autorelease];
     self.viewController.useSplashScreen = YES;
     self.viewController.wwwFolderName = @"www";
-    self.viewController.startPage = @"five.html";
+    self.viewController.startPage = @"index.html";
     self.viewController.view.frame = viewBounds;
     
     // over-ride delegates
@@ -106,7 +106,7 @@
         NSLog(@"supportedOrientations: %@", self.viewController.supportedOrientations);
         // The first item in the supportedOrientations array is the start orientation (guaranteed to be at least Portrait)
         UIInterfaceOrientation newOrient = [[self.viewController.supportedOrientations objectAtIndex:0] intValue];
-        NSLog(@"AppDelegate forcing status bar to: %d from: %d", newOrient, curDevOrientation);
+        NSLog(@"AppDelegate forcing status bar to: %ld from: %ld", newOrient, curDevOrientation);
         [[UIApplication sharedApplication] setStatusBarOrientation:newOrient];
     }
     

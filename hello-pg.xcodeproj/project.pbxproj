@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AACDBAF8150DE61A005532F5 /* www in Resources */ = {isa = PBXBuildFile; fileRef = AACDBAF7150DE61A005532F5 /* www */; };
+		AACDD2AC1A97A485008D6424 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACDD2AB1A97A485008D6424 /* Default-568h@2x.png */; };
 		AAF5064E150D91DA00D33E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064D150D91DA00D33E0F /* Foundation.framework */; };
 		AAF50650150D91DA00D33E0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF5064F150D91DA00D33E0F /* UIKit.framework */; };
 		AAF50652150D91DA00D33E0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF50651150D91DA00D33E0F /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		AACDBAF7150DE61A005532F5 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		AACDD2AB1A97A485008D6424 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AAF50649150D91DA00D33E0F /* hello-pg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-pg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF5064D150D91DA00D33E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AAF5064F150D91DA00D33E0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 		AAF5063B150D91DA00D33E0F = {
 			isa = PBXGroup;
 			children = (
+				AACDD2AB1A97A485008D6424 /* Default-568h@2x.png */,
 				AACDBAF7150DE61A005532F5 /* www */,
 				AAF50667150D91DA00D33E0F /* hello-pg */,
 				AAF5064C150D91DA00D33E0F /* Frameworks */,
@@ -291,7 +294,7 @@
 		AAF5063D150D91DA00D33E0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "ideabus.corp@gmail.com";
 			};
 			buildConfigurationList = AAF50640150D91DA00D33E0F /* Build configuration list for PBXProject "hello-pg" */;
@@ -332,6 +335,7 @@
 				AAF50690150D91DA00D33E0F /* Capture.bundle in Resources */,
 				AAF50692150D91DA00D33E0F /* Cordova.plist in Resources */,
 				AAF5069B150D91DA00D33E0F /* MainViewController.xib in Resources */,
+				AACDD2AC1A97A485008D6424 /* Default-568h@2x.png in Resources */,
 				AAF5069F150D91DA00D33E0F /* verify.sh in Resources */,
 				AACDBAF8150DE61A005532F5 /* www in Resources */,
 			);
@@ -423,12 +427,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -439,10 +447,14 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -451,19 +463,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv6,
-					"$(ARCHS_STANDARD_32_BIT)",
-				);
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -473,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -504,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/Cordova/Frameworks;
